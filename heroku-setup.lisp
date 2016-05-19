@@ -4,7 +4,7 @@
 
 (load (merge-pathnames "example.asd" *build-dir*))
 
-(ql:quickload :example)
+(ql:quickload :sleepy-escarpment)
 
 ;;; Redefine / extend heroku-toplevel here if necessary.
 
