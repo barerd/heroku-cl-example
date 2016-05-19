@@ -1,4 +1,4 @@
-(asdf:defsystem #:example
+(asdf:defsystem #:sleepy-escarpment
   :serial t
   :description "Example cl-heroku application"
   :depends-on (#:hunchentoot
@@ -7,5 +7,5 @@
   :components ((:file "package")
 	       (:module :src
 			:serial t      
-			:components ((:file "hello-world")))))
+			:components ((:file "main")))))
 
