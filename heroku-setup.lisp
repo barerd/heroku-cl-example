@@ -2,7 +2,7 @@
 
 (print ">>> Building system....")
 
-(load (merge-pathnames "example.asd" *build-dir*))
+(load (merge-pathnames "main.asd" *build-dir*))
 
 (ql:quickload :sleepy-escarpment)
 
